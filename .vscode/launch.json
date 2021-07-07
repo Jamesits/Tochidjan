@@ -6,13 +6,9 @@
     "configurations": [
         {
             "name": "Fava",
-            "type": "node",
+            "type": "node-terminal",
             "request": "launch",
-            "args" : [
-               "${workspaceFolder}"
-            ],
-            "program": "fava",
-            "console": "internalConsole"
+            "command": "fava --host=:: ./*.bean"
         }
     ]
 }
