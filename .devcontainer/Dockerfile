@@ -7,4 +7,4 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends python3-dev python3-pip python3-setuptools build-essential curl wget \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install beancount fava
+RUN pip3 install beancount fava[excel]
