@@ -6,5 +6,5 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y upgrade \
     && apt-get -y install --no-install-recommends python3-pip python3-setuptools build-essential zsh curl wget \
     && rm -rf /var/lib/apt/lists/*
-RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 RUN pip3 install beancount fava
