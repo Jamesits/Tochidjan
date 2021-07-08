@@ -8,7 +8,7 @@
             "name": "Fava",
             "type": "node-terminal",
             "request": "launch",
-            "command": "fava --host=:: ./*.bean",
+            "command": "fava --host=0.0.0.0 ./*.bean",
             "preLaunchTask": "fava_patch"
         }
     ]
