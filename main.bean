@@ -1,3 +1,4 @@
+; example from https://sspai.com/post/59777
 ;【一、账本信息】
 option "title" "我的账本" ;账本名称
 option "operating_currency" "CNY" ;账本主货币
